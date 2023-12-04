@@ -1,0 +1,8 @@
+.product-img{
+    max-height: 200px;
+    width: auto;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
