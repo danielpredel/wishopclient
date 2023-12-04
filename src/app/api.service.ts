@@ -9,6 +9,6 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
   buscar(keyword: string) {
-    return this.http.get(this.apiUrl + keyword);
+    return this.http.get(this.apiUrl + keyword + '/1234-dany-hardcoded-2023');
   }
 }
